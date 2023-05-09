@@ -15,5 +15,8 @@ phases:
     commands:
       - echo Build completed on `date`
 artifacts:
-  files:
+  files:    
     - ./target/filmes.api-0.0.1-SNAPSHOT.jar
+    - ./scripts/*.sh
+    - appspec.yml
+  discard-paths: yes
