@@ -7,7 +7,6 @@ phases:
   pre_build:
     commands:
       - echo Iniciando Build
-      - cd ./src/backend/filmes.api/
   build:
     commands:
       - echo Build started on `date`
@@ -17,6 +16,4 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - ./src/backend/filmes.api/appspec.yml
-    - ./src/backend/filmes.api/scripts/*
-    - ./src/backend/filmes.api/target/filmes.api-0.0.1-SNAPSHOT.jar
+    - ./target/filmes.api-0.0.1-SNAPSHOT.jar
