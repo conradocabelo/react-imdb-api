@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-rm *
+sudo rm /home/ec2-user/server/*
