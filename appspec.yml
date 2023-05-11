@@ -12,7 +12,7 @@ permissions:
     group: ec2-user
 
 hooks:
-  BeforeInstall
+  BeforeInstall:
     - location: scripts/server_clear.sh
       timeout: 20
       runas: ec2-user
